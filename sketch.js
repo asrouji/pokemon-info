@@ -7,7 +7,7 @@ const height = document.querySelector('#height');
 const weight = document.querySelector('#weight');
 
 for(let element of elements) {
-    element.addEventListener('click', getPokemon)
+    element.addEventListener('click', getPokemon);
 }
 
 async function getPokemon(event) {
