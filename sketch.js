@@ -21,7 +21,7 @@ async function getPokemon(event) {
     weight.textContent = 'Weight: ' + data.weight/10 + ' kg';
 }
 
-function getTypes(types){
+function getTypes(types) {
     let typeList = "";
     types.forEach(function(type){
         typeList += " " + type['type']['name'];
